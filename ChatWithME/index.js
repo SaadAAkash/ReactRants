@@ -1,12 +1,18 @@
-/** Replace these with your own API keys, username and roomId from Chatkit  */
-const testToken = "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/dfaf1e22-2d33-45c9-b4f8-31f634621d24/token"
+/*const testToken = "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/dfaf1e22-2d33-45c9-b4f8-31f634621d24/token"
 const instanceLocator = "v1:us1:dfaf1e22-2d33-45c9-b4f8-31f634621d24"
 const roomId = 9806194
 const username = 'perborgen'
+https://medium.freecodecamp.org/how-to-build-a-react-js-chat-app-in-10-minutes-c9233794642b
+*/
+
+const testToken = "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/6606369f-485c-4821-bdb4-2d57d5bf1c16/token"
+const instanceLocator = "v1:us1:6606369f-485c-4821-bdb4-2d57d5bf1c16"
+const roomId = 19372849
+const username = 'SaadAAkash'
 
 class App extends React.Component {
     constructor() {
-        super()
+        super() //to create a stateful component.
         this.state = {
             messages: []
         }
