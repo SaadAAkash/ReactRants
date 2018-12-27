@@ -1,0 +1,5 @@
+name: react-admin documentation
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
